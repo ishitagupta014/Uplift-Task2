@@ -1,0 +1,38 @@
+
+.container{
+    background: linear-gradient(100deg, rgb(194, 109, 152) 50%, #e6dae0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 40px;
+     padding: auto;
+}
+#submit{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cards{
+    margin-top: 30px;
+    padding: 12px;
+     width:100%;
+}
+.main{
+    display: block;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+   left: 50%;
+   bottom: 50%;
+   transform: translate(-50%, -50%);
+}
+.icon{
+   text-align: right;
+     padding:5px;
+     margin-right: 15px;
+}
+.icon h2{
+    margin-right: 2px;
+}
+
